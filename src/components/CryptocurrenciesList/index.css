@@ -1,0 +1,43 @@
+.currencyTable {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 650px;
+  border: 2px solid #00e7ff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.currencyTableheadings {
+  list-style-type: none;
+  padding: 15px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #092e33;
+}
+
+.currencyTableName {
+  width: 40%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.currencyTablecurrencies {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60%;
+  text-align: right;
+}
+
+.currencyvalue {
+  font-weight: 700;
+  font-size: 20px;
+  width: 110px;
+}
